@@ -34,7 +34,7 @@ const App = () => {
 	return (
 	<div className="App">
 		<div className="hangerTitle">
-			<p>Hanger</p>
+			<p>Hangry</p>
 		</div>
 		<form onSubmit={getSearch} className="search-form">
 			<input type="text" className="search-bar" value={search} onChange={updateSearch} placeholder="find recipes. (eg. Chicken)"/>
