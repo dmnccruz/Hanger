@@ -6,7 +6,10 @@
 
 .App {
   min-height: 100vh;
-  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
+  background-image: url('https://images7.alphacoders.com/107/1079762.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .hangerTitle {
@@ -22,6 +25,7 @@
   animation: hanger 1s ease-in-out forwards;
   position: relative;
   top: 0px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.226);
 }
 
 @keyframes hanger {
@@ -43,12 +47,13 @@
   padding: 10px;
   outline: none;
   height: 50px;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 10px 0px 0px 10px;
   border: 1px solid black;
   border-right: none;
   background: rgba(255, 255, 255, 0.363);
   transition: .2s ease-in-out;
+  font-family: 'Poppins', cursive;
 }
 
 ::placeholder {
@@ -73,6 +78,7 @@
   border-left: none;
   transition: .15s ease-in-out;
   outline: none;
+  font-family: 'Poppins', cursive;
 }
 
 .search-button:hover {
@@ -96,7 +102,7 @@ hr {
 }
 
 .recipe {
-  opacity: .5;
+  opacity: .90;
   transition: .15s ease-in-out;
 }
 
@@ -124,6 +130,7 @@ hr {
   overflow: hidden;
   text-align: center;
   border: 1px dashed black;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 .ingredients {
